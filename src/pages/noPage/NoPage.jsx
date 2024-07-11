@@ -1,6 +1,6 @@
-import React from 'react'
 
-function NoPage() {
+
+const NoPage = () => {
   return (
     <div>NoPage</div>
   )

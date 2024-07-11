@@ -1,7 +1,8 @@
-import Navbar from '../navbar/Navbar'
+import React from 'react'
 import Footer from '../footer/Footer'
+import Navbar from '../navbar/Navbar'
 
-function Layer({children}) {
+const Layout = ({children}) => {
   return (
     <div>
         <Navbar/>
@@ -13,4 +14,4 @@ function Layer({children}) {
   )
 }
 
-export default Layer
+export default Layout
